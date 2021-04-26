@@ -4,7 +4,7 @@ import mne # For loading BrainVision files (EEG)
 from mne import io
 import numpy as np
 from numpy.polynomial.polynomial import polyfit
-from audio_tools import spectools, fbtools, phn_tools #use custom functions for linguistic/acoustic alignment
+# from audio_tools import spectools, fbtools, phn_tools #use custom functions for linguistic/acoustic alignment
 from scipy.io import wavfile
 from scipy.spatial import ConvexHull, convex_hull_plot_2d
 import os
@@ -21,8 +21,8 @@ from matplotlib import cm, rcParams
 from matplotlib_venn import venn3, venn3_circles, venn2
 from scipy.stats import wilcoxon
 
-from ridge.utils import make_delayed, counter, save_table_file
-from ridge.ridge import ridge_corr, bootstrap_ridge, bootstrap_ridge_shuffle, eigridge_corr
+# from ridge.utils import make_delayed, counter, save_table_file
+# from ridge.ridge import ridge_corr, bootstrap_ridge, bootstrap_ridge_shuffle, eigridge_corr
 
 import random
 import itertools as itools
