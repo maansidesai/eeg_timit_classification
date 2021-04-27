@@ -1,7 +1,7 @@
 #import scipy
 import numpy as np
 import logging
-from gkTools.strf.utils import mult_diag, counter
+#from gkTools.strf.utils import mult_diag, counter
 import random
 import itertools as itools
 #from matplotlib import pyplot as plt
