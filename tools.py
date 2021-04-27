@@ -195,7 +195,6 @@ def loadEEGh5(subject, stimulus_class, data_dir,
 	else:
 		return resp_dict, stim_dict
 
-
 def predict_response(wt, vStim, vResp):
 	''' Predict the response to [vStim] given STRF weights [wt],
 	compare to the actual response [vResp], and return the correlation
@@ -210,11 +209,10 @@ def predict_response(wt, vStim, vResp):
 		pred: prediction for each electrode [time x electrodes]
 	'''
 	nchans = wt.shape[1]
-	print('Calculating prediction...')
+	# print('Calculating prediction...')
 	pred = np.dot(vStim, wt)
 
-	print('Calculating correlation')
+	# print('Calculating correlation')
 	corr = np.array([np.corrcoef(vResp[:,i], pred[:,i])[0,1] for i in np.arange(nchans)])
 
 	return corr, pred
-
