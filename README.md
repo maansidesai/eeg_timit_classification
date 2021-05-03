@@ -1,6 +1,6 @@
 # eeg_timit_classification
 
-Neural Computations Final Project
+Neural Computation Final Project
 
 Authors: Maansi Desai & Garret Kurteff
 
