@@ -10,4 +10,8 @@ Future directions of this work help to motivate using EEG for portable BCI, and 
 in other electrophysiological modalities (intracranial EEG and MEG). 
 
 
+Using notebooks: 
+* To look at an individual subject run this notebook: sentence_classification_single_subject.ipynb
+* To look at a subplot of all subjects, run this notebook: sentence_classification_all_subjects.ipynb
+
 * Data available upon request *
